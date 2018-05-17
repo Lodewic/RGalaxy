@@ -4,6 +4,9 @@
     <tool file="data_source/upload.xml"/>
   </section>
   <section name="Bioconductor Tools" id="bioc_tools">
-      <tool file="bioc/RNASeq.xml" />
+    <tool file="bioc/RNASeq.xml"/>
+  </section>
+  <section name="Local tools" id="mytool">
+    <tool file="mytool/CsvToCsv.xml"/>
   </section>
 </toolbox>

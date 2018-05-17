@@ -32,3 +32,4 @@ Collate:
     'test_functions.R'
     'utils.R'
 VignetteBuilder: knitr
+RoxygenNote: 6.0.1

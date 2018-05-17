@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526569024193.000,
+    "dirty" : false,
+    "encoding" : "ISO8859-1",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "687A1BE8",
+    "lastKnownWriteTime" : 1526569056,
+    "last_content_update" : 1526569056289,
+    "path" : "~/GitHub/RGalaxy/R/AllClasses.R",
+    "project_path" : "R/AllClasses.R",
+    "properties" : {
+        "cursorPosition" : "199,6",
+        "docOutlineVisible" : "1",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

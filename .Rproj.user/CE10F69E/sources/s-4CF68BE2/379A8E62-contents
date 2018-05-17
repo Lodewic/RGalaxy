@@ -1,0 +1,19 @@
+require(RGalaxy)
+require(optparse)
+
+CreateDESeqData <- function (countdata = GalaxyInputFile(required = T, testValues = "Liver_Counts.csv"), 
+    coldata = GalaxyInputFile(required = T, testValues = "Liver_colData_Endpoints.csv"), 
+    outputDds = GalaxyOutput("dds", format = "rds")) 
+{
+    library(DESeq2)
+    counts <- read.table(countdata, sep = ",", row.names = 1, 
+        header = T)
+    coldata <- read.table(coldata, sep = ",", row.names = 1, 
+        header = T)
+    dds <- DESeqDataSetFromMatrix(counts, coldata, design = ~1)
+    dds <- estimateSizeFactors(dds)
+    saveRDS(dds, file = outputDds)
+}
+
+fun_name="CreateDESeqData"
+source(file.path(Sys.getenv("TOOL_INSTALL_DIR"), "generate_runnable.R"))

@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526579404968.000,
+    "dirty" : false,
+    "encoding" : "ISO8859-1",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "26644EC1",
+    "lastKnownWriteTime" : 1526579521,
+    "last_content_update" : 1526579521576,
+    "path" : "~/GitLab/Galaxy/R/MakeGalaxyTool.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "16,12",
+        "docOutlineVisible" : "1",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
